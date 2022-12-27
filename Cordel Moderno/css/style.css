@@ -31,7 +31,6 @@ header h1 {
 }
 
 header p,a {
-    font-weight: bolder;
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
     color: rgb(199, 197, 197);
@@ -92,7 +91,7 @@ footer {
 }
 
 footer a {
-    text-decoration: underline;
+    text-decoration: none;
     color: rgb(187, 185, 185);
 }
 
