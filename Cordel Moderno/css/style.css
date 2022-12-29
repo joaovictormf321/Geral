@@ -77,7 +77,7 @@ article p {
     background-image: url(../img/background002.jpg);
     background-size: cover;
     background-position: center center;
-    background-attachment: calc(30%);
+    background-attachment: fixed;
 }
 
 footer {
