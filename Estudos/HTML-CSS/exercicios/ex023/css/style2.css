@@ -1,0 +1,20 @@
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header tr th,.header  {
+    padding: 15px;
+    color: white;
+    background-color: grey;
+}
+
+
+
+table,th,tr,td {
+    width: 300px;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
