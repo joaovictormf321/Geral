@@ -3,7 +3,7 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.header tr th,.header  {
+.header tr th,.header, tfoot {
     padding: 15px;
     color: white;
     background-color: grey;
@@ -17,4 +17,8 @@ table,th,tr,td {
     text-align: center;
     border: 1px solid black;
     border-collapse: collapse;
+}
+
+tbody tr:nth-child(2n) {
+    background-color: lightgray;
 }

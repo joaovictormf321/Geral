@@ -11,3 +11,7 @@ table,td {
 tr.cab {
     background-color: gray;
 }
+
+tfoot th {
+    background-color: black;
+}
