@@ -7,7 +7,6 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
 }
 
 /* header */
@@ -73,12 +72,12 @@ main article p {
 
 .section {
     background-color: rgb(54, 54, 54);
-    
+    display: inline-block;
+    align-items: flex-end;
 }
 
-.section article {
+.section .article {
     background-color: white;
-    margin: 40px 10px 40px 5px;
     max-width: 300px;
     min-width: 200px;
     max-height: 600px;
@@ -89,15 +88,16 @@ main article p {
     max-width: 300px;
 }
 
-.section article h3 {
+.section .article h3 {
     padding: 45px 0 25px 0;
 }
 
-.section article p {
+.section .article p {
     font-size: 1em;
     padding: 0 25px 30px 25px;
 }
 
 .section span {
     padding: 50px;
+     display: grid; 
 }
